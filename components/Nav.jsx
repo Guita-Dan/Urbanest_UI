@@ -66,9 +66,9 @@ export default function Nav() {
                     >
                         <ul className="md:flex md:justify-between align-center whitespace-nowrap">
                             <NavbarItem href="/">Home</NavbarItem>
-                            <NavbarItem href="/about">About Us</NavbarItem>
+                            <NavbarItem href="/#">About Us</NavbarItem>
                             <NavbarItem href="/properties">Properties</NavbarItem>
-                            <NavbarItem href="/services">Services</NavbarItem>
+                            <NavbarItem href="/#">Services</NavbarItem>
                         </ul>
                     </div>
 
@@ -135,9 +135,9 @@ const HamburgerMenu = () => {
                 >
                     <ul className="md:flex md:justify-between align-center whitespace-nowrap">
                         <NavbarItem onClick={() => setShowMenu(false)} href="/">Home</NavbarItem>
-                        <NavbarItem onClick={() => setShowMenu(false)} href="/about">About Us</NavbarItem>
+                        <NavbarItem onClick={() => setShowMenu(false)} href="/#">About Us</NavbarItem>
                         <NavbarItem onClick={() => setShowMenu(false)} href="/properties">Properties</NavbarItem>
-                        <NavbarItem onClick={() => setShowMenu(false)} href="/services">Services</NavbarItem>
+                        <NavbarItem onClick={() => setShowMenu(false)} href="/#">Services</NavbarItem>
                     </ul>
                 </div>
 

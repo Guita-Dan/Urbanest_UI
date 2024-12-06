@@ -38,7 +38,7 @@ export default function Hero() {
             Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
           <div className="flex flex-col py-5 gap-5 md:flex-row justify-center lg:justify-start items-center tracking-wide">
             <Link
-              href="/about"
+              href="/#"
               target="_blank"
               rel="noopener">
               <span className="block text-regular font-normal py-[19px] px-6 border border-solid border-gray-700 rounded-lg bg-transparent"> Learn More</span>
